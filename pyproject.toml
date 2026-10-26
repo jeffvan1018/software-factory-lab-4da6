@@ -1,0 +1,9 @@
+[project]
+name = "software-factory-lab"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "google-adk>=2.12.0",
+    "google-cloud-storage>=3.17.1",
+    "google-antigravity>=0.1.0",
+]

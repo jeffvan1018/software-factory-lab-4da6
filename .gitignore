@@ -1,0 +1,61 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments & package managers
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution & builds
+dist/
+build/
+*.egg-info/
+.eggs/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+
+# Testing & quality tools
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.ruff_cache/
+.mypy_cache/
+
+# Environment files & secrets
+.env
+.env.*
+!.env.example
+.adk/
+*.pem
+*.key
+*service_account*.json
+*service-account*.json
+*credentials*.json
+client_secret*.json
+
+# Logs & temp files
+*.log
+logs/
+*.tmp
+*.temp
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
